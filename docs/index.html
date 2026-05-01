@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TeleHum: Supplementary Artifact</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Artifact navigation">
+        <a href="../README.md">README</a>
+        <a href="../INSTALL.md">Install</a>
+        <a href="../RUN_EXAMPLE.md">Run Example</a>
+        <a href="../DATASET_DESCRIPTION.md">Dataset</a>
+        <a href="../code/">Code</a>
+      </nav>
+      <section class="hero">
+        <p class="label">TeleHum</p>
+        <h1>TeleHum: Supplementary Artifact</h1>
+        <p class="subtitle">An anonymized supplementary artifact for human-centered networked robotic teleoperation.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="../README.md">Start Review</a>
+          <a class="button" href="../RUN_EXAMPLE.md">Run Paths</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="overview" class="section">
+        <h2>Overview</h2>
+        <p>
+          This page provides a compact entry point for reviewers. The artifact contains ROS 2 teleoperation code,
+          gNB-side KPI recording utilities, KPI parsing and analysis tooling, and a run-level dataset sample for
+          networked teleoperation experiments.
+        </p>
+      </section>
+
+      <section id="artifact-contents" class="section">
+        <h2>Artifact Contents</h2>
+        <div class="grid">
+          <a class="card" href="../README.md">
+            <span class="card-title">Top-Level Guide</span>
+            <span class="card-text">Artifact purpose, layout, and review entry points.</span>
+          </a>
+          <a class="card" href="../INSTALL.md">
+            <span class="card-title">Installation</span>
+            <span class="card-text">Software and hardware dependencies.</span>
+          </a>
+          <a class="card" href="../RUN_EXAMPLE.md">
+            <span class="card-title">Run Examples</span>
+            <span class="card-text">Software-only and full-system execution paths.</span>
+          </a>
+          <a class="card" href="../DATASET_DESCRIPTION.md">
+            <span class="card-title">Dataset Description</span>
+            <span class="card-text">Run-level organization, fields, and privacy notes.</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="dataset-organization" class="section">
+        <h2>Dataset Organization</h2>
+        <p>
+          The sample dataset is stored under
+          <a href="../networked_teleoperation_dataset/">networked_teleoperation_dataset/</a>.
+          It is organized by delay condition and pseudonymized user identifier. Each run can contain gNB KPI logs,
+          ROS 2 bag data, metadata, and subjective ratings.
+        </p>
+        <pre><code>networked_teleoperation_dataset/
+  dataset/
+    delay0/
+    delay300/
+    delay600/
+    subjective_ratings.csv</code></pre>
+      </section>
+
+      <section id="software-components" class="section">
+        <h2>Software Components</h2>
+        <div class="component-list">
+          <a href="../code/teleoperation_ros2_pkg/">
+            <strong>code/teleoperation_ros2_pkg/</strong>
+            <span>ROS 2 teleoperation and simulation interface.</span>
+          </a>
+          <a href="../code/oai_gnb_kpi_recorder/">
+            <strong>code/oai_gnb_kpi_recorder/</strong>
+            <span>gNB-side KPI recording utilities and deployment notes.</span>
+          </a>
+          <a href="../code/ros2_kpi_toolkit/">
+            <strong>code/ros2_kpi_toolkit/</strong>
+            <span>Parsing, analysis, export, and utility scripts for ROS 2 KPI data.</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="software-only-review-path" class="section">
+        <h2>Software-Only Review Path</h2>
+        <p>
+          Reviewers can inspect package structure, run static checks, examine dataset files, and follow the
+          software-only examples without local radio hardware. Start with
+          <a href="../RUN_EXAMPLE.md">RUN_EXAMPLE.md</a> and the per-component README files.
+        </p>
+      </section>
+
+      <section id="hardware-dependent-full-system" class="section">
+        <h2>Hardware-Dependent Full System</h2>
+        <p>
+          Full-system execution requires local ROS 2, robot, 5G core, gNB, UE, SDR, and network configuration.
+          Hardware-dependent steps are documented separately and require local parameter substitution before use.
+        </p>
+        <p>
+          See <a href="../INSTALL.md">INSTALL.md</a> and
+          <a href="../code/oai_gnb_kpi_recorder/README.md">code/oai_gnb_kpi_recorder/README.md</a>.
+        </p>
+      </section>
+
+      <section id="figures-and-demo-materials" class="section">
+        <h2>Figures and Demo Materials</h2>
+        <p>
+          Demo materials are intentionally limited to repository-local files for anonymous review. Place any
+          additional anonymized screenshots, diagrams, or videos under <code>docs/assets/</code> before enabling
+          public links from this page.
+        </p>
+      </section>
+
+      <section id="citation-placeholder" class="section">
+        <h2>Citation Placeholder</h2>
+        <p>
+          Citation information is withheld during anonymous review. A camera-ready citation can be added here after
+          the review process.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>TeleHum supplementary artifact</span>
+      <a href="../THIRD_PARTY_ATTRIBUTION.md">Third-Party Attribution</a>
+      <a href="../ANONYMIZATION_REPORT.md">Anonymization Report</a>
+    </footer>
+  </body>
+</html>

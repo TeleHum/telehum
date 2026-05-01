@@ -1,0 +1,64 @@
+# ROS 2 workspace outputs
+/build/
+/install/
+/log/
+/.colcon/
+
+# Python caches and packaging
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.eggs/
+*.egg
+*.egg-info/
+dist/
+pip-wheel-metadata/
+MANIFEST
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+.python-version
+
+# Test, coverage, and type-checking
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+htmlcov/
+.tox/
+.nox/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Project-local datasets and experiments
+/data/
+/datasets/
+/checkpoints/
+/wandb/
+*.h5
+*.hdf5
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*_calibration_backup.yaml

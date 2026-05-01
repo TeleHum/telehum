@@ -1,0 +1,36 @@
+# vim swp
+*.swp
+
+# log and exec file
+cmake_targets/log/
+cmake_targets/*/build/
+cmake_targets/ran_build/
+cmake_targets/nas_sim_tools/build/
+log/
+lte_build_oai/
+
+# vscode
+.vscode
+
+# Tags for vim/global
+GPATH
+GRTAGS
+GTAGS
+tags
+
+# others
+nfapi_nr_interface_scf
+*.log
+*.out
+
+# VS Code Local History
+.history/
+
+# EncFS config
+.encfs6.xml
+
+# Personal backup files
+Cmake备份.txt
+openair2/LAYER2/NR_MAC_gNB/original/
+openair2/E2AP/flexric_x/
+openair2/E2AP/flexric_xx/

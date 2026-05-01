@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ros2-kpi-toolkit-workspace"
+version = "0.1.0"
+description = "Development environment entrypoint for the ROS 2 communication quality KPI toolkit workspace."
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4,<9.0",
+]
+
+[tool.setuptools]
+py-modules = []

@@ -1,0 +1,27 @@
+# Submission Checklist
+
+- [ ] Top-level README explains the full artifact
+- [ ] All three software packages are included
+- [ ] Dataset sample is included
+- [ ] No `.git/` directory is included
+- [ ] No original personal GitHub URL remains
+- [ ] No author name remains outside intentionally preserved third-party notices
+- [ ] No author email remains outside intentionally preserved third-party notices
+- [ ] No institution or lab name remains outside intentionally preserved third-party notices
+- [ ] No local absolute path remains outside generic placeholders or third-party upstream examples
+- [ ] ROS package.xml files are checked
+- [ ] setup.py / pyproject.toml files are checked
+- [ ] oai_gnb_kpi_recorder README deployment instructions are cleaned
+- [ ] Third-party license notices are preserved
+- [ ] Dataset participant IDs are pseudonymized
+- [ ] No raw participant identifiers are included
+- [ ] Hardware-dependent steps are clearly marked
+- [ ] Software-only review path is documented
+- [ ] Final Git commit author is set to Anonymous Authors <anonymous@example.com> or another non-identifying identity
+- [ ] Final repository account profile does not expose author identity
+- [ ] Final repository link does not expose author identity
+- [ ] OAI third-party sample configs/docs with upstream IPs, hostnames, device serial examples, or institution names are intentionally included or trimmed
+- [ ] Dataset files larger than 50MB are accepted by the repository policy, or Git LFS/reduced sample is used
+- [ ] ROS bag serialized message payloads have been manually confirmed if the final release requires removal of embedded header stamps
+- [ ] Paper PDF metadata, figure metadata, and archive metadata are cleaned before upload
+- [ ] Camera-ready restoration notes are kept separately and are not included in the anonymous review artifact

@@ -1,0 +1,65 @@
+# Build and generated artifacts
+build/
+install/
+log/
+logs/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ROS and colcon runtime output
+.colcon/
+rosbag2_*/
+output/
+kpi_metrics/
+gnb_csv/
+
+# Virtual environments and local Python tooling
+.venv/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# IDE/editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Local environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.*
+secret.*
+credentials.*
+credential.*
+id_rsa
+id_ed25519
+known_hosts
+
+# Large local archives and transfer artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Local notebooks/checkpoints
+.ipynb_checkpoints/

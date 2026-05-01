@@ -1,0 +1,15 @@
+std_msgs/Header header
+string topic_name
+float64 window_size_sec
+uint32 sample_count
+uint64 received_bytes
+float64 avg_latency_ms
+float64 p95_latency_ms
+float64 p99_latency_ms
+float64 std_latency_ms
+float64 jitter_ms
+float64 recv_rate_hz
+float64 throughput_bps
+uint64 lost_count
+float64 loss_rate
+uint64 out_of_order_count
