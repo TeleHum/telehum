@@ -12,8 +12,6 @@ ANONYMIZED_ARTIFACT/
   DATASET_DESCRIPTION.md
   ETHICS_AND_PRIVACY.md
   THIRD_PARTY_ATTRIBUTION.md
-  ANONYMIZATION_REPORT.md
-  SUBMISSION_CHECKLIST.md
   LICENSE
   code/
     teleoperation_ros2_pkg/
@@ -35,6 +33,7 @@ ANONYMIZED_ARTIFACT/
 - Start with `INSTALL.md` for software and hardware dependencies.
 - Use `RUN_EXAMPLE.md` for a software-only review path and a full-system run path.
 - Use `DATASET_DESCRIPTION.md` for dataset layout, identifiers, and per-run files.
-- Use `ANONYMIZATION_REPORT.md` and `SUBMISSION_CHECKLIST.md` before packaging or mirroring the artifact.
+- Use `ETHICS_AND_PRIVACY.md` for privacy and anonymization notes.
+- Use `THIRD_PARTY_ATTRIBUTION.md` for third-party source, license, and attribution notes.
 
 The complete hardware reproduction path requires ROS 2 Humble, SO101-compatible hardware, 5G UE/gNB equipment, OpenAirInterface, and local radio/network configuration. The software-only path is intended to let reviewers inspect the code, build ROS 2 workspaces, and examine the dataset structure without access to the physical system.
