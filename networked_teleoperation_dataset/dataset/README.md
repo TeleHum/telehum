@@ -1,6 +1,6 @@
 # Networked Teleoperation Dataset Sample
 
-This directory is the run-level dataset sample included in the anonymous review artifact. One run corresponds to one pseudonymized user under one application-side injected-delay condition.
+This directory is the run-level dataset sample included in this anonymized supplementary artifact. One run corresponds to one pseudonymized user under one application-side injected-delay condition.
 
 ```text
 networked_teleoperation_dataset/dataset/

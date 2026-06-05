@@ -1,9 +1,9 @@
-Anonymous Review License Notice
+Anonymized Supplementary Artifact License Notice
 
-This artifact is provided for anonymous peer review.
+This artifact is provided as an anonymized supplementary artifact.
 
 Component source files retain their package-level license declarations where present. Third-party source trees retain their own license and notice files, including the OpenAirInterface license and notices under code/oai_gnb_kpi_recorder/oai_custom/.
 
-The dataset sample is provided for reviewer-side reproducibility and structure checks. Do not redistribute it outside the review process unless the final public repository explicitly provides redistribution terms.
+The dataset sample is provided for reproducibility and structure checks. Do not redistribute it unless the final public repository explicitly provides redistribution terms.
 
-Before public camera-ready release, replace this notice or supplement it with the definitive code license and dataset license chosen by the authors.
+Before public release, replace this notice or supplement it with the definitive code license and dataset license chosen by the authors.

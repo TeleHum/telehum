@@ -15,7 +15,7 @@ These instructions use placeholder paths and do not assume the authors' machines
 
 ## Hardware Dependencies
 
-The software-only review path does not require hardware. Full-system reproduction requires:
+The software-only path does not require hardware. Full-system reproduction requires:
 
 - SO101-compatible leader/follower robot hardware and serial access to the motor controllers.
 - A 5G UE module, for example an RM520N_GL-class terminal module.
@@ -53,7 +53,7 @@ Software-only MuJoCo demo:
 ros2 launch so101_mujoco_pkg sim_demo.launch.py
 ```
 
-For hardware runs, configure serial devices through local YAML files or launch arguments. Do not commit local serial paths, hostnames, or lab-specific calibration notes to the review artifact.
+For hardware runs, configure serial devices through local YAML files or launch arguments. Do not commit local serial paths, hostnames, or lab-specific calibration notes to this anonymized supplementary artifact.
 
 ## ROS 2 KPI Toolkit
 

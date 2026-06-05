@@ -1,6 +1,6 @@
 # Third-Party Attribution
 
-This artifact preserves third-party authors, copyright notices, license files, citation files, and official upstream links. Do not anonymize third-party authors or remove upstream notices when preparing the anonymous review repository.
+This artifact preserves third-party authors, copyright notices, license files, citation files, and official upstream links. Do not anonymize third-party authors or remove upstream notices when preparing this anonymized supplementary artifact.
 
 | Component | Source / upstream | Usage | License | Modified? | Files/directories | Required action |
 |---|---|---|---|---|---|---|
@@ -23,10 +23,10 @@ This artifact preserves third-party authors, copyright notices, license files, c
 | Docker base images: Ubuntu | https://hub.docker.com/_/ubuntu | Base image references in OAI Dockerfiles and CI examples. | Ubuntu image contents include mixed open-source licenses; image metadata/license terms from Docker Official Images and Ubuntu apply. | No image layers included; Dockerfiles only. | `code/oai_gnb_kpi_recorder/oai_custom/docker/`, `ci-scripts/docker/`. | Preserve Dockerfiles if needed; confirm image/license terms for public reproducibility. |
 | Docker base images: Red Hat UBI 9 | https://catalog.redhat.com/software/containers/ubi9/ubi | Base image references in OAI Dockerfiles. | Red Hat UBI terms plus package-level licenses. | No image layers included; Dockerfiles only. | `code/oai_gnb_kpi_recorder/oai_custom/docker/Dockerfile.*rhel9` | Confirm redistribution/use terms if publishing built images. |
 | Docker base images: Rocky Linux / configurable `$BASE_IMAGE` | https://rockylinux.org/ and local Docker build args | Base image references in OAI Dockerfiles. | UNKNOWN - manual confirmation required for exact configured image. | No image layers included; Dockerfiles only. | `code/oai_gnb_kpi_recorder/oai_custom/docker/Dockerfile.*rocky` | Confirm exact build-time image and license if publishing built images. |
-| OAI CN5G tutorial resources and docker-compose examples | Bundled OAI tutorial resources under `doc/tutorial_resources/oai-cn5g/`. | Local 5G core deployment guidance and example compose files. | Covered by OAI tree notices plus image/package-specific terms. | No artifact-specific edits identified. | `code/oai_gnb_kpi_recorder/oai_custom/doc/tutorial_resources/oai-cn5g/` | Confirm whether these examples should remain in the anonymous review artifact; preserve notices if kept. |
+| OAI CN5G tutorial resources and docker-compose examples | Bundled OAI tutorial resources under `doc/tutorial_resources/oai-cn5g/`. | Local 5G core deployment guidance and example compose files. | Covered by OAI tree notices plus image/package-specific terms. | No artifact-specific edits identified. | `code/oai_gnb_kpi_recorder/oai_custom/doc/tutorial_resources/oai-cn5g/` | Confirm whether these examples should remain in this artifact; preserve notices if kept. |
 
 ## Notes
 
 - Official third-party upstream links are intentionally preserved.
 - No current-author old fork link was found during the final targeted scan. If a future scan finds an author fork URL, replace it with the official upstream URL or `<anonymous-repository-link>`.
-- License values marked `UNKNOWN - manual confirmation required` should be resolved before a public camera-ready release.
+- License values marked `UNKNOWN - manual confirmation required` should be resolved before a public release.

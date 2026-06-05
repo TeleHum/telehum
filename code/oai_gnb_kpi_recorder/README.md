@@ -170,7 +170,7 @@ And The dashboard interface is as follows:
 
 ## 📄 License
 
-This component includes modified OpenAirInterface source code. See `oai_custom/LICENSE` and `oai_custom/NOTICE.md` for the OAI license and third-party notices. Repository-level licensing for the surrounding review artifact is described in the top-level `LICENSE`.
+This component includes modified OpenAirInterface source code. See `oai_custom/LICENSE` and `oai_custom/NOTICE.md` for the OAI license and third-party notices. Repository-level licensing for the surrounding anonymized supplementary artifact is described in the top-level `LICENSE`.
 
 ## 🔗 References
 

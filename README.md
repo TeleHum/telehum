@@ -1,8 +1,8 @@
 # Anonymous Supplementary Artifact
 
-This repository is a supplementary artifact prepared for double-blind review for an UbiComp/IMWUT submission. Author names, affiliations, original repository remotes, Git history, local machine paths, and direct participant identifiers are intentionally excluded.
+This repository is an anonymized supplementary artifact for human-centered networked robotic teleoperation. Author names, affiliations, original repository remotes, Git history, local machine paths, and direct participant identifiers are intentionally excluded.
 
-The artifact is organized as a single review package:
+The artifact is organized as follows:
 
 ```text
 ANONYMIZED_ARTIFACT/
@@ -28,12 +28,12 @@ ANONYMIZED_ARTIFACT/
 - `code/ros2_kpi_toolkit/`: parsing, analysis, and utility scripts.
 - `networked_teleoperation_dataset/dataset/`: run-level dataset structure and sample data.
 
-## Reviewer Entry Points
+## Entry Points
 
 - Start with `INSTALL.md` for software and hardware dependencies.
-- Use `RUN_EXAMPLE.md` for a software-only review path and a full-system run path.
+- Use `RUN_EXAMPLE.md` for a software-only inspection path and a full-system run path.
 - Use `DATASET_DESCRIPTION.md` for dataset layout, identifiers, and per-run files.
 - Use `ETHICS_AND_PRIVACY.md` for privacy and anonymization notes.
 - Use `THIRD_PARTY_ATTRIBUTION.md` for third-party source, license, and attribution notes.
 
-The complete hardware reproduction path requires ROS 2 Humble, SO101-compatible hardware, 5G UE/gNB equipment, OpenAirInterface, and local radio/network configuration. The software-only path is intended to let reviewers inspect the code, build ROS 2 workspaces, and examine the dataset structure without access to the physical system.
+The complete hardware reproduction path requires ROS 2 Humble, SO101-compatible hardware, 5G UE/gNB equipment, OpenAirInterface, and local radio/network configuration. The software-only path is intended to let users inspect the code, build ROS 2 workspaces, and examine the dataset structure without access to the physical system.

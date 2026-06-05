@@ -2,7 +2,7 @@
 
 Run commands from the artifact root unless noted otherwise.
 
-## Software-Only Review Path
+## Software-Only Path
 
 This path does not require robot hardware or 5G radio equipment.
 
@@ -112,4 +112,4 @@ networked_teleoperation_dataset/dataset/
         behavior_rosbag_0.db3
 ```
 
-Store local IP addresses, SIM information, hostnames, and device paths outside the submitted artifact.
+Store local IP addresses, SIM information, hostnames, and device paths outside this artifact.
